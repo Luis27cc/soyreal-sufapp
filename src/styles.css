@@ -1,60 +1,21 @@
-/* 🌟 Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  background: url("https://i.postimg.cc/50dWXJns/fondo-final.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-
-/* 🌟 Menú de navegación */
-nav {
-  background-color: #007bff;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* 🌟 Contenedor de Inicio */
 .home-container {
+  background-image: url("/background.jpg"); /* Usamos la imagen desde public/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-}
-
-.home-content {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 20px;
-  border-radius: 10px;
+  justify-content: center;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 🌟 Botones */
-button {
-  background-color: #007bff;
   color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+  padding: 20px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.home-container h1,
+.home-container p {
+  background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente para mejorar visibilidad */
+  padding: 10px;
+  border-radius: 5px;
 }
