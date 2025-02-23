@@ -6,7 +6,7 @@ import Galeria from "./pages/Galeria";
 import Foro from "./pages/Foro";
 import Recursos from "./pages/Recursos";
 import Navbar from "./components/Navbar";
-import "./styles.css"; // Importar estilos
+import "./styles.css"; // Importamos los estilos
 
 function App() {
   return (
